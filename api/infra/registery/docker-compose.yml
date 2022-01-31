@@ -7,5 +7,6 @@ services:
       - registry:/var/lib/registery
     ports: 
       - "55000:5000"
+    restart: always
 volumes:
   registry:
